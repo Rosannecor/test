@@ -8,7 +8,7 @@ function Navbar() {
                 src='https://image.freepik.com/vrije-vector/goed-eten-logo-sjabloon_79169-17.jpg'
                 width='50px'
                 height='50px' 
-                alt=""
+                alt="eten"
             />
             <div>
                 <nav>
