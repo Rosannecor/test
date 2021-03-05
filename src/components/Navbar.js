@@ -1,26 +1,29 @@
-import React from 'react'
+import React from 'react';
 import { Link } from 'react-router-dom';
+import './Navbar.css';
 
 function Navbar() {
     return (
-        <div>
-            <img 
-                src='https://image.freepik.com/vrije-vector/goed-eten-logo-sjabloon_79169-17.jpg'
-                width='50px'
-                height='50px' 
-                alt="eten"
+        <div className="navbar">
+            <img className="navbar__image"
+                src='Goed-eten.gif'
+                alt="logo"
             />
-            <div>
+            <img className="navbar__image_salade"
+                src='Salade.png'
+                alt="salade"
+            />
+            <div  className="navbar__container">
                 <nav>
-                    <ul>
+                    <ul className="navbar__ul">
                         <li>
-                            <Link to="Home">Home</Link>
+                            <Link className="navbar__Link" to="Home">Home</Link>
                         </li>
                         <li>
-                            <Link to="About">About</Link>
+                            <Link className="navbar__Link" to="About">About</Link>
                         </li>
                         <li>
-                            <Link to="Login">Login</Link>
+                            <Link className="navbar__Link" to="Login">Login</Link>
                         </li>
                     </ul>
                 </nav>
