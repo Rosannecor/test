@@ -3,6 +3,10 @@ import { Link } from 'react-router-dom';
 import './Navbar.css';
 
 function Navbar() {
+
+
+    //function javascript komt hier
+
     return (
         <div className="navbar">
             <img className="navbar__image"

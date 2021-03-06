@@ -1,9 +1,28 @@
 .form{
     border: 1px solid rgb(133, 29, 29);
     border-radius: 5pt;
-    margin-left: 300px;
-    margin-right: 319px;
+    margin-left: 301px;
+    margin-right: 317px;
     text-align: center;
-    
+    width: 900px;
     padding-bottom: 30px;
 }
+
+.login-form__input{
+    margin-bottom: 5px;
+    border-radius: 2pt;
+    border: 1px solid rgb(133, 29, 29);
+    background-color: rgb(133, 29, 29, 0.1);
+    height: 25px;
+    
+}
+
+.login-form__header{
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* Button opmaak doet t niet
+.login-form__button{
+    margin-top: 100px;
+    background-color: lightpink;
+
+}*/

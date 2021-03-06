@@ -34,7 +34,7 @@ export default class Login extends React.Component {
                 <input
                     type="text"
                     name="email"
-                    placeholder="Email"
+                    placeholder=" Email"
                     className="login-form__input"
                     onChange={this.handleOnchange}
                 />
@@ -45,7 +45,7 @@ export default class Login extends React.Component {
                 <input
                     type="password"
                     name="password"
-                    placeholder="Password"
+                    placeholder=" Password"
                     className="login-form__input"
                     onChange={this.handleOnchange}
                 />
