@@ -4,6 +4,7 @@ import './Navbar.css';
 
 function Navbar() {
 
+    
 
     //function javascript komt hier
 

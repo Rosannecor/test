@@ -8,14 +8,18 @@
     margin-left: 100px;
     margin-right: 50px;
     margin-top: 25px;
+    position: relative;
     
 }    
 
 .navbar__image_salade{
     height: 95px;
     width: 900px;
+    margin-top: 25px;
     border-radius: 5pt;
     border: 1px solid rgb(133, 29, 29);
+    position: absolute;
+    
    
 }
 ul.navbar__ul{

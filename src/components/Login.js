@@ -28,6 +28,12 @@ export default class Login extends React.Component {
     };
 
     render() {
+    
+        /* document is not definedvar myForm= document.forms.myForm;
+        myForm.email.onfocus = function(){
+            myForm.email.style.border = "4px solid pink";
+        };*/ 
+
         return (
             <form className="form">
                 <h1 className="login-form__header">Log Into Your Account</h1>
